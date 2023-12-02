@@ -1,0 +1,28 @@
+.description {
+  height: 200px;
+  overflow: auto;
+  margin-top: 10px;
+  padding-right: 5px;
+}
+
+.description::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+.description::-webkit-scrollbar-track {
+  background: #ddbaff;
+  border-radius: 100px;
+}
+
+/* Handle */
+.description::-webkit-scrollbar-thumb {
+  background: #9333ea;
+  border-radius: 10px;
+  height: 10%;
+}
+
+/* Handle on hover */
+.description::-webkit-scrollbar-thumb:hover {
+  background: #7626c0;
+}
