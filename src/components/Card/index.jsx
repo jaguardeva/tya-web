@@ -14,7 +14,7 @@ export default function Card(props) {
       </div>
       <button
         type="button"
-        className="p-2 px-5 bg-yellow-500 hover:shadow-lg hover:shadow-indigo-500 font-semibold rounded-lg mt-5 text-slate-900 transition ease-in-out"
+        className="p-2 px-5 bg-yellow-400 hover:shadow-lg hover:shadow-yellow-600 font-semibold rounded-lg mt-10 text-slate-900 transition ease-in-out"
       >
         View Jurnal
       </button>

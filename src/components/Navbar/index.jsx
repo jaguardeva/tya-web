@@ -28,7 +28,7 @@ export default function Navbar() {
   const currentPath = usePathname();
   return (
     <header className="w-full bg-white sticky top-0 text-slate-900 flex px-4 md:shadow-none shadow-lg">
-      <div className="md:flex md:flex-row flex-col w-full  py-[20px] max-w-[1240px] mx-auto justify-between items-center ">
+      <div className="md:flex md:flex-row flex-col w-full  py-[15px]  md:py-[20px] max-w-[1240px] mx-auto justify-between items-center ">
         <div className="flex justify-between items-center">
           <Link href="/" className="text-2xl md:text-3xl font-bold">
             Siti<span className="text-purple-600">Maftuhah.</span>

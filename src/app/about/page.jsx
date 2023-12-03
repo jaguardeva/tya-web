@@ -4,11 +4,11 @@ import React from "react";
 export default function AboutPage() {
   return (
     <div className="w-full  text-gray-600 p-5 flex flex-col gap-10">
-      <section className="w-full  max-w-[1240px]  mx-auto  px-5  py-14 bg-white rounded-lg shadow-md">
-        <h1 className="font-semibold text-5xl md:text-3xl text-center text-slate-900">
+      <section className="w-full  max-w-[1240px]  mx-auto  px-5 py-10  md:py-14 bg-white rounded-lg shadow-md">
+        <h1 className="font-semibold text-2xl md:text-3xl text-center text-slate-900">
           About Me
         </h1>
-        <p className="mt-5 text-center max-w-3xl mx-auto">
+        <p className="mt-5 text-center text-sm md:text-lg max-w-3xl mx-auto">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident
           dolor odio ad rem eum consequatur voluptates laborum iure dolorum
           inventore. Temporibus incidunt, praesentium minus earum nam fugit illo
@@ -16,10 +16,10 @@ export default function AboutPage() {
         </p>
       </section>
       <section className="w-full  max-w-[1240px]  mx-auto  px-5  py-14 bg-purple-600 rounded-lg shadow-md">
-        <h1 className="font-semibold text-5xl md:text-3xl text-center text-white ">
+        <h1 className="font-semibold text-2xl md:text-3xl text-center text-white ">
           My Published Jurnal
         </h1>
-        <p className="mt-5 mx-auto text-white">
+        <p className="mt-5 mx-auto text-white text-sm md:text-lg">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
           corporis voluptas nihil, pariatur repellendus expedita dolores
           explicabo reiciendis facere ad, eveniet consequatur odit sit, nesciunt
