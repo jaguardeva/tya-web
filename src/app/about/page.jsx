@@ -4,7 +4,7 @@ import Education from "@/components/Education";
 
 export default function AboutPage() {
   return (
-    <div className="w-full h-screen text-gray-600 p-5 flex flex-col gap-10">
+    <div className="w-full  text-gray-600 p-5 flex flex-col gap-10">
       <section className="w-full  max-w-[1240px]  mx-auto  px-5 md:px-14 py-10  md:py-14 bg-white rounded-lg shadow-md">
         <h1 className="font-semibold text-2xl md:text-3xl text-center ">
           About Me
