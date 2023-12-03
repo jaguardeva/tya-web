@@ -13,15 +13,15 @@ import Image from "next/image";
 export default function HomePage() {
   return (
     <main className="w-full  text-slate-900">
-      <section className="w-full h-[calc(100vh-80px)5]  max-w-[1240px]  mx-auto grid md:grid-cols-2 px-4">
+      <section className="w-full h-screen md:h-[calc(100vh-85px)]  max-w-[1240px]  mx-auto grid md:grid-cols-2 px-4">
         <div className="w-full mt-8 sm:mt-24 lg:mt-[100px] flex flex-col gap-3 md:gap-5">
           <p className="font-bold text-md md:text-xl">
-            <span className="text-purple-600">Hello,</span> internet 👋.
+            <span className="text-purple-600">Hello,</span> everyone! 👋.
           </p>
           <h1 className="font-bold text-5xl md:text-6xl">
             I'am <span className="text-purple-600">Siti Maftuhah</span>
           </h1>
-          <p className="font-medium text-slate-500 text-md mdtext-lg">
+          <p className="font-medium text-slate-500 text-sm md:text-lg">
             "Welcome to my personal website! Excited to share stories and
             experiences with you."
           </p>
@@ -65,20 +65,20 @@ export default function HomePage() {
             </Link>
             <a
               href="https://drive.google.com/file/d/12VPnFwR2b5ro8onVOPQ4KehYd9WlmFCt/view?usp=drivesdk"
-              className="mt-6 flex justify-center items-center w-[40%]  md:w-[30%] py-3 px-5 text-sm md:text-xl font-semibold rounded-lg bg-transparent outline outline-purple-600 hover:bg-gray-200 text-purple-600 transition-all ease-in-out duration-150"
+              className="mt-6 flex justify-center items-center w-[40%]  md:w-[30%] py-3 px-5 text-sm md:text-xl font-semibold rounded-lg bg-transparent border-2 border-purple-600   hover:bg-gray-200 text-purple-600 transition-all ease-in-out duration-150"
               target="_blank"
             >
               Download CV
             </a>
           </div>
         </div>
-        <div className="flex items-center justify-center relative mt-[20px] sm:mt-[50px]">
+        <div className="flex justify-center  relative">
           <Image
             src="/my-photo.png"
             alt="profile"
             width={400}
             height={400}
-            className="z-10 md:bottom-20 absolute w-[300px] h-auto md:w-[400px]"
+            className="z-10 md:bottom-[7rem]  absolute w-[300px] h-auto md:w-[400px] rounded-full"
             priority
           ></Image>
           <svg

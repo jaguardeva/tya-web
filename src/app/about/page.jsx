@@ -1,43 +1,51 @@
-import Card from "@/components/Card";
+/* eslint-disable react/no-unescaped-entities */
 import React from "react";
+import Education from "@/components/Education";
 
 export default function AboutPage() {
   return (
-    <div className="w-full  text-gray-600 p-5 flex flex-col gap-10">
-      <section className="w-full  max-w-[1240px]  mx-auto  px-5 py-10  md:py-14 bg-white rounded-lg shadow-md">
-        <h1 className="font-semibold text-2xl md:text-3xl text-center text-slate-900">
+    <div className="w-full h-screen text-gray-600 p-5 flex flex-col gap-10">
+      <section className="w-full  max-w-[1240px]  mx-auto  px-5 md:px-14 py-10  md:py-14 bg-white rounded-lg shadow-md">
+        <h1 className="font-semibold text-2xl md:text-3xl text-center ">
           About Me
         </h1>
-        <p className="mt-5 text-center text-sm md:text-lg max-w-3xl mx-auto">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident
-          dolor odio ad rem eum consequatur voluptates laborum iure dolorum
-          inventore. Temporibus incidunt, praesentium minus earum nam fugit illo
-          porro id!
+        <p className="mt-10 text-center text-sm md:text-lg">
+          I'am{" "}
+          <span className="text-purple-600 font-semibold">Siti Maftuhah, </span>
+          a student in the English education study program at the Sunan Ampel
+          State Islamic University, Surabaya.
         </p>
       </section>
-      <section className="w-full  max-w-[1240px]  mx-auto  px-5  py-14 bg-purple-600 rounded-lg shadow-md">
-        <h1 className="font-semibold text-2xl md:text-3xl text-center text-white ">
-          My Published Jurnal
+      <section className="w-full  max-w-[1240px]  mx-auto  px-5 md:px-14 py-14 bg-white rounded-lg shadow-md">
+        <h1 className="font-semibold text-2xl md:text-3xl text-center ">
+          Education
         </h1>
-        <p className="mt-5 mx-auto text-white text-sm md:text-lg">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
-          corporis voluptas nihil, pariatur repellendus expedita dolores
-          explicabo reiciendis facere ad, eveniet consequatur odit sit, nesciunt
-          ratione provident culpa! Veniam ut impedit earum aut doloribus officia
-          ipsum minus architecto dolorem totam!
-        </p>
-        <div className="w-full grid  md:grid-cols-3 mt-10 gap-5">
-          <Card
-            title="Jurnal 1"
-            description="Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Doloribus rem aperiam minima assumenda harum deserunt labore
-                itaque eum culpa sit."
+
+        <div className="mt-10 flex flex-col gap-5 w-full">
+          <Education
+            name="Khazanah Ilmu Elementary school"
+            start="2010"
+            end="2016"
           />
 
-          <Card title="Jurnal 2" description="Lorem ipsum dolor sit amet." />
-          <Card
-            title="Jurnal 3"
-            description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio perferendis nesciunt asperiores sequi deleniti provident consequuntur quisquam ex doloremque recusandae, quia esse aspernatur minima voluptas expedita illum commodi quam pariatur, quos est ipsam optio? Autem eum, placeat, asperiores saepe error dicta fuga illum eaque earum itaque amet ullam corrupti consequuntur!"
+          <Education
+            name="YPM 4 Bohar Taman Junior High School"
+            start="2017"
+            end="2019"
+          />
+
+          <Education
+            name="Wachid Hasyim YPM 2 Taman Senior High School"
+            program="IPA"
+            start="2019"
+            end="2022"
+          />
+
+          <Education
+            name="Islamic State University of Sunan Ampel Surabaya"
+            program="English education"
+            start="2022"
+            end="Now"
           />
         </div>
       </section>
