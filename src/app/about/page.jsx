@@ -49,6 +49,28 @@ export default function AboutPage() {
           />
         </div>
       </section>
+      <section className="w-full  max-w-[1240px]  mx-auto  px-5 md:px-14 py-10  md:py-14 bg-white rounded-lg shadow-md">
+        <h1 className="font-semibold text-2xl md:text-3xl text-center ">
+          My Skills
+        </h1>
+        <div className="grid md:grid-cols-2 gap-5 mt-10">
+          <div>
+            <h2 className="text-md font-semibold">Soft Skills:</h2>
+            <div className="mt-5 flex flex-col gap-1">
+              <p>&bull; Teamwork</p>
+              <p>&bull; Leadership</p>
+              <p>&bull; Public Speaking</p>
+            </div>
+          </div>
+          <div>
+            <h2 className="text-md font-semibold">Hard Skills:</h2>
+            <div className="mt-5 flex flex-col gap-1">
+              <p>&bull; Microsoft Office</p>
+              <p>&bull; Master of Ceremonies</p>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
