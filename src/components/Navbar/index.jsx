@@ -38,7 +38,7 @@ export default function Navbar() {
             className="md:hidden flex justify-center items-center outline-none"
             onClick={() => setIsOpen(!isOpen)}
           >
-            {isOpen ? <IoClose size={40} /> : <IoMenu size={40} />}
+            {isOpen ? <IoClose size={30} /> : <IoMenu size={30} />}
           </button>
         </div>
 
