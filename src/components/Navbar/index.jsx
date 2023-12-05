@@ -14,7 +14,7 @@ const MENU = [
     path: "/about",
   },
   {
-    name: "My Projects",
+    name: "Portofolio",
     path: "/projects",
   },
   {
