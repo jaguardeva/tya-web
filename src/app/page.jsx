@@ -12,10 +12,10 @@ import Image from "next/image";
 
 export default function HomePage() {
   return (
-    <main className="w-full  text-slate-900">
-      <section className="w-full h-screen md:h-[calc(100vh-85px)]  max-w-[1240px]  mx-auto grid md:grid-cols-2 px-4">
-        <div className="w-full mt-8 sm:mt-24 lg:mt-[100px] flex flex-col gap-3 md:gap-5">
-          <p className="font-bold text-md md:text-xl">
+    <main className="w-full  text-slate-900 py-5 md:py-10">
+      <section className="w-full h-screen md:h-[calc(100vh-85px)]  max-w-[1240px]  mx-auto grid md:grid-cols-2 px-4 ">
+        <div className="w-full  flex flex-col gap-3 md:gap-5">
+          <p className="font-bold text-md md:text-xl md:mt-[100px]">
             <span className="text-purple-600">Hello,</span> everyone! 👋.
           </p>
           <h1 className="font-bold text-5xl md:text-6xl">
@@ -72,7 +72,7 @@ export default function HomePage() {
             </a>
           </div>
         </div>
-        <div className="flex justify-center  relative">
+        <div className="flex justify-center items-start relative">
           <Image
             src="/my-photo.png"
             alt="profile"

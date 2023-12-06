@@ -9,11 +9,11 @@ export default function AboutPage() {
         <h1 className="font-semibold text-2xl md:text-3xl text-center md:text-left">
           About Me
         </h1>
-        <p className="mt-10 text-center text-sm md:text-lg">
+        <p className="mt-10 text-center md:text-left text-sm md:text-lg">
           I'am{" "}
           <span className="text-purple-600 font-semibold">Siti Maftuhah, </span>
-          a student in the English education study program at the Sunan Ampel
-          State Islamic University, Surabaya.
+          a student in the English education study program at the Islamic State
+          University of Sunan Ampel, Surabaya.
         </p>
       </section>
       <section className="w-full  max-w-[1240px]  mx-auto  px-5 md:px-14 py-14 bg-white rounded-lg shadow-md">
@@ -55,16 +55,16 @@ export default function AboutPage() {
         </h1>
         <div className="grid md:grid-cols-2 gap-5 mt-10">
           <div>
-            <h2 className="text-md font-semibold">Soft Skills:</h2>
-            <div className="mt-5 flex flex-col gap-1">
+            <h2 className="text-md md:text-lg font-semibold">Soft Skills:</h2>
+            <div className="mt-5 flex flex-col gap-1 text-sm md:text-md lg:text-lg">
               <p>&bull; Teamwork</p>
               <p>&bull; Leadership</p>
               <p>&bull; Public Speaking</p>
             </div>
           </div>
           <div>
-            <h2 className="text-md font-semibold">Hard Skills:</h2>
-            <div className="mt-5 flex flex-col gap-1">
+            <h2 className="text-md md:text-lg font-semibold">Hard Skills:</h2>
+            <div className="mt-5 flex flex-col gap-1 text-sm md:text-md lg:text-lg">
               <p>&bull; Microsoft Office</p>
               <p>&bull; Master of Ceremonies</p>
             </div>
