@@ -9,7 +9,7 @@ export default function AboutPage() {
         <h1 className="font-semibold text-2xl md:text-3xl text-center md:text-left">
           About Me
         </h1>
-        <p className="mt-10 text-center md:text-left text-sm md:text-lg">
+        <p className="mt-10  text-sm md:text-lg">
           I'am{" "}
           <span className="text-purple-600 font-semibold">Siti Maftuhah, </span>
           a student in the English education study program at the Islamic State

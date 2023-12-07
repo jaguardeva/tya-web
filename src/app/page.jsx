@@ -13,7 +13,7 @@ import Image from "next/image";
 export default function HomePage() {
   return (
     <main className="w-full  text-slate-900 py-5 md:py-10">
-      <section className="w-full h-screen md:h-[calc(100vh-85px)]  max-w-[1240px]  mx-auto grid md:grid-cols-2 px-4 ">
+      <section className="w-full h-screen md:h-[calc(100vh-176px)]  max-w-[1240px]  mx-auto grid md:grid-cols-2 px-4 ">
         <div className="w-full  flex flex-col gap-3 md:gap-5">
           <p className="font-bold text-md md:text-xl md:mt-[100px]">
             <span className="text-purple-600">Hello,</span> everyone! 👋.
@@ -59,7 +59,7 @@ export default function HomePage() {
           <div className="flex gap-5">
             <Link
               href="/about"
-              className="mt-6 flex justify-center items-center w-[40%]  md:w-[30%] py-3 px-5 text-sm md:text-xl font-semibold rounded-lg bg-purple-600 hover:bg-purple-700 text-white transition-all ease-in-out duration-150"
+              className="mt-6 flex justify-center items-center w-[40%]  md:w-[30%] py-3 px-5 text-sm md:text-xl font-semibold rounded-lg bg-purple-600 hover:bg-purple-700 focus:bg-purple-700 text-white transition-all ease-in-out duration-150"
             >
               About Me
             </Link>
@@ -78,13 +78,12 @@ export default function HomePage() {
             alt="profile"
             width={400}
             height={400}
-            className="z-10 md:bottom-[7rem]  absolute w-[300px] h-auto md:w-[400px] rounded-full"
-            priority
+            className="z-10 md:mt-10 w-[300px] md:w-[400px] rounded-full"
           ></Image>
           <svg
             viewBox="0 0 200 200"
             xmlns="http://www.w3.org/2000/svg"
-            className=""
+            className="absolute"
           >
             <path
               fill="#9333EA"

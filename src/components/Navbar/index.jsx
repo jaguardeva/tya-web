@@ -30,7 +30,7 @@ export default function Navbar() {
     <header className="w-full bg-white sticky top-0 text-slate-900 flex px-4 md:shadow-none shadow-lg z-50">
       <div className="md:flex md:flex-row flex-col w-full  py-[15px]  md:py-[20px] max-w-[1240px] mx-auto justify-between items-center ">
         <div className="flex justify-between items-center">
-          <Link href="/" className="text-2xl md:text-3xl font-bold">
+          <Link href="/" className="text-xl md:text-3xl font-bold">
             Siti<span className="text-purple-600">Maftuhah.</span>
           </Link>
           <button
@@ -43,7 +43,7 @@ export default function Navbar() {
         </div>
 
         <nav
-          className={`mt-[20px] md:mt-0 ${
+          className={`mt-[20px] md:mt-0  ${
             isOpen ? "block" : "hidden"
           }  md:block`}
         >
