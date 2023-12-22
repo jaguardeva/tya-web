@@ -1,6 +1,11 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
 
+export const metadata = {
+  title: "Siti Maftuhah | Projects",
+  description: "My Projects",
+};
+
 export default function ProjectPage() {
   return (
     <div className="w-full h-screen text-gray-600 p-5 flex flex-col gap-5">

@@ -2,6 +2,11 @@
 import React from "react";
 import Education from "@/components/Education";
 
+export const metadata = {
+  title: "Siti Maftuhah | About",
+  description: "About Siti Maftuhah",
+};
+
 export default function AboutPage() {
   return (
     <div className="w-full  text-gray-600 p-5 flex flex-col gap-5">

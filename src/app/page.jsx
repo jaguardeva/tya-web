@@ -49,6 +49,7 @@ export default function HomePage() {
             width={400}
             height={400}
             className="z-10 md:mt-10 w-[300px] md:w-[400px] rounded-full"
+            priority={true}
           ></Image>
           <svg
             viewBox="0 0 200 200"

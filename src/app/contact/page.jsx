@@ -2,6 +2,11 @@ import React from "react";
 import { FaInstagramSquare, FaWhatsappSquare } from "react-icons/fa";
 import { MdOutlineEmail } from "react-icons/md";
 
+
+export const metadata = {
+  title: "Siti Maftuhah | Contact",
+  description: "Contact me for any query",
+};
 export default function ContactPage() {
   return (
     <div className="w-full h-screen p-5 md:px-14  text-gray-600">
